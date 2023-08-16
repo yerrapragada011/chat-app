@@ -6,7 +6,7 @@ const Filter = require('bad-words');
 const {
   generateMessage,
   generateLocationMessage,
-} = require('./utils/messages');
+} = require('../src/utils/messages');
 
 const app = express();
 const server = http.createServer(app);
